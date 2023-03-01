@@ -26,7 +26,7 @@ import edu.wpi.first.wpilibj.XboxController;
 public class Robot extends TimedRobot {
   /*
    * Autonomous selection options.
-   *//\
+   */
   private static final String kNothingAuto = "do nothing";
   private static final String kConeAuto = "cone";
   private static final String kCubeAuto = "cube";
@@ -121,6 +121,7 @@ public class Robot extends TimedRobot {
    * Time to drive back in auto
    */
   static final double AUTO_DRIVE_TIME = 6.0;
+   ///new thing
 
   /**
    * Speed to drive backwards in auto
